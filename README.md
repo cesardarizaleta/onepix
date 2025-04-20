@@ -1,40 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# OnePix OS
 
-## Getting Started
+A beautiful and interactive macOS-like operating system interface built with Next.js and Tailwind CSS.
 
-First, run the development server:
+![OnePix OS Screenshot](public/resources/wallpaper.webp)
 
+## 🌟 Features
+
+- **Modern UI**: Sleek and responsive interface inspired by macOS
+- **Dark Mode Support**: Seamless light/dark theme switching
+- **Interactive Components**:
+  - Dock with animated icons
+  - Menu bar with system status
+  - Window management system
+  - Activity Monitor
+  - Concurrency Simulator
+  - Mail client
+  - Messages app
+  - Finder
+  - System Settings
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18.x or later
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/onepix.git
+cd onepix
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Start the development server:
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Built With
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- [Next.js](https://nextjs.org/) - React framework
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [React Icons](https://react-icons.github.io/react-icons/) - Icon library
+- [React Draggable](https://github.com/react-grid-layout/react-draggable) - Drag and drop functionality
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## 📱 Applications
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### System Apps
+- **Activity Monitor**: Real-time system resource monitoring
+- **Concurrency Simulator**: Process scheduling simulation
+- **System Settings**: Theme and appearance customization
 
-## Learn More
+### User Apps
+- **Mail**: Email client interface
+- **Messages**: Chat application
+- **Finder**: File management system
+- **Safari**: Web browser (Google integration)
 
-To learn more about Next.js, take a look at the following resources:
+## 🎨 Customization
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+- Change wallpapers through System Settings
+- Toggle between light and dark modes
+- Customize dock appearance
+- Adjust window management settings
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🤝 Contributing
 
-## Deploy on Vercel
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📝 License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- Inspired by macOS design principles
+- Built with modern web technologies
+- Community contributions and feedback
+
+---
+
+Made with ❤️ by [Your Name]
