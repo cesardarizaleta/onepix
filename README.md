@@ -30,7 +30,7 @@ A beautiful and interactive macOS-like operating system interface built with Nex
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/onepix.git
+git clone https://github.com/cesardarizaleta/onepix.git
 cd onepix
 ```
 
